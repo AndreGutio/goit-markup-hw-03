@@ -1,0 +1,359 @@
+:root {
+  --primary-accent-color: #2196f3;
+  --primary-title-color: #212121;
+  --primary-bg-color: #ffffff;
+  --primary-bg--color: #f5f5f5;
+  --light-bg-color: #f5f4fa;
+  --dark-bg-color: #2f303a;
+  --color-address: rgba(255, 255, 255, 0.6);
+  --primary-text-color: #757575;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/*H-E-A-D-E-R*/
+
+.header {
+  background: var(--primary-bg-color);
+}
+
+/*.header-nav {
+}*/
+
+.header-nav-logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: var(--primary-accent-color);
+}
+
+.header-nav-logos {
+  color: #000000;
+}
+
+/*.header-nav-list {
+}
+
+.header-nav-item {
+}*/
+
+/*!!!!!!!!!!!!!!!currentColor*/
+
+.header-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-title-color);
+}
+.header-nav-list .header-nav-link.current {
+  color: var(--primary-accent-color);
+}
+
+.header-nav-link:hover,
+.header-nav-link:focus {
+  color: var(--primary-accent-color);
+}
+
+/* .header-contact-list {
+}
+
+.header-contact-item {
+} */
+
+.header-contact-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+
+.header-contact-link:hover,
+.header-contact-link:focus {
+  color: var(--primary-accent-color);
+}
+
+/*M-A-I-N*/
+
+.hero {
+  background: var(--dark-bg-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-bg-color);
+}
+
+.hero-btn {
+  /*boton*/
+  background: var(--primary-accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.btn-text {
+  /*boton text*/
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-bg-color);
+}
+
+/* .possibility {
+}
+
+/*.possibility-title {
+
+}*/
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
+
+/*.possibility-list {
+}
+
+.possibility-item {
+} */
+
+.possibility-item-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-title-color);
+}
+
+.possibility-text {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+/*.work {
+}*/
+
+.work-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42/36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-title-color);
+}
+
+/*.work-list {
+}
+
+.work-item {
+}
+
+.work-icon {
+} */
+
+.team {
+  background: var(--light-bg-color);
+}
+
+.team-title {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: cacl(42/36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-title-color);
+}
+
+/*.team-list {
+}*/
+
+.team-card {
+  background: var(--primary-bg-color);
+}
+
+/*.team-icon {
+} */
+
+.team-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-title-color);
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
+
+/*F-O-O-T-E-R*/
+
+.footer {
+  background: var(--dark-bg-color);
+}
+.footer-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: var(--primary-accent-color);
+}
+
+.footer-logos {
+  color: var(--primary-bg-color);
+}
+
+/* .footer-address-list {
+}
+
+.footer-address-item {
+} */
+
+.footer-address-map {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--primary-bg-color);
+}
+
+.footer-address-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color:var(--color-address);
+}
+
+.footer-address-map:hover,
+.footer-address-map:focus,
+.footer-address-link:hover,
+.footer-address-link:focus {
+  color: var(--primary-accent-color);
+}
+
+/*----PORTFOLIO.html----*/
+/*---M-A-I-N-portfolio*/
+
+/*.cross {
+}
+
+/*.cross-title {
+}
+
+.cross-list {
+}
+
+.cross-item {
+} */
+
+.cross-btn {
+  font-family: inherit;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-title-color);
+  background-color: var(--light-bg-color);
+  border-radius: 4px;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+.cross-btn:hover,
+.cross-btn:focus {
+  color: var(--primary-bg-color);
+  background-color: var(--primary-accent-color);
+}
+
+.portfolio {
+  background: var(--primary-bg-color);
+}
+*/ .portfolio-title {
+  color: var(--primary-title-color);
+  opacity: 0;
+}
+
+/* .portfolio-list {
+} 
+
+.portfolio-link {
+}*/
+
+.portfolio-item {
+  background: var(--primary-bg-color);
+}
+
+/* .portfolio-img {
+} */
+
+.portfolio-card-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  color: var(--primary-title-color);
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+}
