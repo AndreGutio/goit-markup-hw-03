@@ -382,19 +382,25 @@ body {
 /*----PORTFOLIO.html----*/
 /*---M-A-I-N-portfolio*/
 
-/*.cross {
+.cross {
+  padding: 94px 0;
 }
 
 /*.cross-title {
-}
+}*/
 
 .cross-list {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 50px;
 }
 
-.cross-item {
+/*.cross-item {
 } */
 
 .cross-btn {
+  display: inline-block;
   font-family: inherit;
   font-style: normal;
   font-weight: 500;
@@ -407,6 +413,11 @@ body {
   border-radius: 4px;
   border-color: transparent;
   cursor: pointer;
+  padding: 6px 22px;
+}
+
+.cross-btn-all {
+  padding: 6px 25px;
 }
 
 .cross-btn:hover,
@@ -415,26 +426,47 @@ body {
   background-color: var(--primary-accent-color);
 }
 
-.portfolio {
+/*.portfolio {
   background: var(--primary-bg-color);
 }
-*/ .portfolio-title {
+*/
+ 
+.portfolio-title {
   color: var(--primary-title-color);
   opacity: 0;
 }
 
-/* .portfolio-list {
-} 
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
 
-.portfolio-link {
+/*.portfolio-link {
 }*/
+
+.portfolio-bo {
+  width: 370px;
+  border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: #EEEEEE;
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: #EEEEEE;
+  
+  border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: #EEEEEE;
+}
 
 .portfolio-item {
   background: var(--primary-bg-color);
 }
 
-/* .portfolio-img {
-} */
+.portfolio-img {
+  /* margin-bottom: 20px; */
+}
 
 .portfolio-card-title {
   font-weight: 700;
@@ -442,6 +474,8 @@ body {
   line-height: calc(36 / 18);
   letter-spacing: 0.06em;
   color: var(--primary-title-color);
+  margin: 0 24px 4px 24px;
+  width: 322px;
 }
 
 .portfolio-text {
@@ -449,4 +483,7 @@ body {
   line-height: calc(30 / 16);
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
+  margin-left: 24px;
+  width: 322px;
+  margin-bottom: 20px;
 }
